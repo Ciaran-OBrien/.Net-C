@@ -1,0 +1,75 @@
+﻿<Window x:Class="Rick_and_Morty_Soundboard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Rick_and_Morty_Soundboard"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="505" Width="800"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+  
+    <Window.Background>
+    <ImageBrush>
+        <ImageBrush.ImageSource>
+                <BitmapImage UriSource="C:\Users\Ciaran\source\repos\Rick_and_Morty_Soundboard\Rick_and_Morty_Soundboard\images\background.jpg"/>
+        </ImageBrush.ImageSource>
+    </ImageBrush>
+</Window.Background>
+    <Grid>
+
+        <Grid HorizontalAlignment="Left" Height="406" Margin="10,60,0,0" VerticalAlignment="Top" Width="774">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+                <ColumnDefinition Width="60"/>
+
+
+            </Grid.ColumnDefinitions>
+            <Button Grid.Row="1" Grid.Column="1" FontFamily="Helvetica" FontSize="12" VerticalAlignment="Center" Click="Button_Click">Morty</Button>
+            <Button Grid.Row="1" Grid.Column="3" FontFamily="Helvetica" FontSize="12" VerticalAlignment="Center">Summer</Button>
+            <Button Grid.Row="1" Grid.Column="5" FontFamily="Helvetica" FontSize="12" VerticalAlignment="Center">Beth</Button>
+            <Button Grid.Row="1" Grid.Column="7" FontFamily="Helvetica" FontSize="12" VerticalAlignment="Center">Wubba</Button>
+            <Button Grid.Row="1" Grid.Column="9" FontFamily="Helvetica" FontSize="12" VerticalAlignment="Center">Burp</Button>
+            <Button Grid.Row="1" Grid.Column="11" FontFamily="Helvetica" FontSize="12" VerticalAlignment="Center">Ughhh</Button>
+            <Button Grid.Row="2" Grid.Column="1" FontFamily="Helvetica" FontSize="12" VerticalAlignment="Center">Morty</Button>
+            <Button Grid.Row="2" Grid.Column="3" FontFamily="Helvetica" FontSize="12" VerticalAlignment="Center">Morty</Button>
+            <Button Grid.Row="2" Grid.Column="5" FontFamily="Helvetica" FontSize="12" VerticalAlignment="Center">Morty</Button>
+            <Button Grid.Row="2" Grid.Column="7" FontFamily="Helvetica" FontSize="12" VerticalAlignment="Center">Morty</Button>
+            <Button Grid.Row="2" Grid.Column="9" FontFamily="Helvetica" FontSize="12" VerticalAlignment="Center">Morty</Button>
+            <Button Grid.Row="2" Grid.Column="11" FontFamily="Helvetica" FontSize="12" VerticalAlignment="Center">Morty</Button>
+
+            <TextBlock HorizontalAlignment="Center" Margin="10,21,47,0" TextWrapping="Wrap" VerticalAlignment="Top" 
+                       FontFamily="Helvetica"
+                       FontSize="24" 
+                       FontStretch="UltraExpanded"
+                       TextAlignment="Center"
+                       Width="423" Grid.ColumnSpan="8" Grid.Column="3"
+                       >
+                <Run Text="Rick and Morty Soundboard"/>
+            </TextBlock>
+        </Grid>
+
+    </Grid>
+</Window>

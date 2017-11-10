@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_API_Paser", "JSON_API_Paser\JSON_API_Paser.csproj", "{87BDFB8E-9C3C-4267-ABE5-45BE0E949C80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_API_PaserTests", "JSON_API_PaserTests\JSON_API_PaserTests.csproj", "{B0A2C2D0-401E-4876-B500-9B0FE2276292}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON_Parser_Tests", "JSON_Parser_Tests\JSON_Parser_Tests.csproj", "{4B274165-4E3D-4463-BF92-14768D5ADC52}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{87BDFB8E-9C3C-4267-ABE5-45BE0E949C80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87BDFB8E-9C3C-4267-ABE5-45BE0E949C80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87BDFB8E-9C3C-4267-ABE5-45BE0E949C80}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B0A2C2D0-401E-4876-B500-9B0FE2276292}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0A2C2D0-401E-4876-B500-9B0FE2276292}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0A2C2D0-401E-4876-B500-9B0FE2276292}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0A2C2D0-401E-4876-B500-9B0FE2276292}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B274165-4E3D-4463-BF92-14768D5ADC52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B274165-4E3D-4463-BF92-14768D5ADC52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B274165-4E3D-4463-BF92-14768D5ADC52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B274165-4E3D-4463-BF92-14768D5ADC52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
